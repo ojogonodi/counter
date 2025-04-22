@@ -29,7 +29,7 @@ decrement.addEventListener("click", () => {
 
 doubleEl.addEventListener("click", () => {
     countValue.textContent++;
-    if (countValue.textContent >= 2) {
+    if (countValue.textContent + 2) {
         countValue.style.color = "green";
     }
 });
