@@ -2,7 +2,7 @@ const countValue = document.querySelector("#countEl");
 const increment = document.querySelector(".increaseEl");
 const reset = document.querySelector(".resetEl");
 const decrement = document.querySelector(".decreaseEl");
-const doubleEl = document.querySelector(".doubleEl");
+const double = document.querySelector(".doubleEl");
 
 
 window.load = countValue.style.color = "blue"
@@ -27,9 +27,9 @@ decrement.addEventListener("click", () => {
     }
 });
 
-doubleEl.addEventListener("click", () => {
+double.addEventListener("click", () => {
     countValue.textContent++;
-    if (countValue.textContent + 2) {
+    if (countValue.textContent +=2) {
         countValue.style.color = "green";
     }
 });
